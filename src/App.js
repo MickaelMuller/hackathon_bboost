@@ -7,14 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-<<<<<<< HEAD
         <div className="content">
           <Home />
           
         </div>
         <Footer />
-=======
->>>>>>> carddonnee
       </div>
     );
   }

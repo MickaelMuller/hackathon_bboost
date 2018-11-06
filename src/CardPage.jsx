@@ -28,7 +28,7 @@ class CardPage extends Component {
           <CardBody>
             <CardTitle>Card Title</CardTitle>
             <CardText>Esse ex et eiusmod occaecat. Aute eiusmod reprehenderit mollit minim eu aute quis sit non velit. Exercitation proident do officia officia. Anim magna proident cillum duis minim sunt duis mollit aliquip elit. Veniam reprehenderit qui tempor aliqua culpa.</CardText>
-            <StarRatingComponent className="startcomp"
+            <StarRatingComponent
               name="rate1"
               starCount={5}
               value={rating}

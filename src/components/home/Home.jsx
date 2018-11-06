@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FormUpload from './FormUpload';
 import Video from './Video';
 import './Home.css'
+import Graphs from './Graphs';
 
 
 class Home extends Component {
@@ -9,8 +10,7 @@ class Home extends Component {
     render() { 
         return ( 
             <div>
-                <Video />
-                <FormUpload />
+                <Graphs />
             </div>
          );
     }

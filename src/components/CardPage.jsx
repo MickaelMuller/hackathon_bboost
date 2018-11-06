@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
-import './CardPage.css';
 import StarRatingComponent from 'react-star-rating-component';
 
 
@@ -23,7 +22,7 @@ class CardPage extends Component {
 
     return (
       <div>
-        <Card className="card-css">
+        <Card>
           <CardImg src="https://i0.wp.com/www.thepanamanews.com/wp-content/uploads/2018/09/WHO-cancer.jpg" alt="Card image cap" />
           <CardBody>
             <CardTitle>Card Title</CardTitle>

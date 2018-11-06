@@ -11,8 +11,8 @@ class GraphPart extends Component {
     render() {
         return (
             <div>
-                <Container>
-                    <h1 className="graph-part">Les graphiques les mieux notés</h1>
+                <Container className="graph-bottom">
+                    <h2 className="graph-part graph-text">Les graphiques les mieux notés</h2>
                     <Row>
                         <Col xs="12" md="4" lg="4">
                             <CardPage />

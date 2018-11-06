@@ -13,14 +13,14 @@ class NavBar extends Component {
                 </NavbarBrand>
                 <NavbarNav left>
                     <NavItem className="links">
-                        Link1
+                        Créer son graphique
                        
                     </NavItem>
                     <NavItem className="links">
-                        Link2
+                        Tous les graphiques
                     </NavItem>
-                    <NavItem className="links"><NavLink to="Library">
-                        Link3
+                    <NavItem className="links"><NavLink to="Society">
+                        A propos
                         </NavLink>
                     </NavItem>
                 </NavbarNav>

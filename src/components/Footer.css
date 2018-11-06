@@ -19,10 +19,11 @@
     bottom: 0;
     position: static;
     width: 100%;
+    height: 170px;
   }
   
 .icons {
-    padding: 15px;
+    padding: 10px;
 }
 
   

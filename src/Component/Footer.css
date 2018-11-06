@@ -1,0 +1,28 @@
+.white-text {
+    color: white;
+}
+
+.mentions{
+  cursor: pointer;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.white {
+    color: #ffffff;
+    font-size: 23px;
+    font-family:'Ubuntu Condensed', sans-serif;
+}
+
+.socials {
+    padding: 25px;
+    background-color: #3847A0;
+    bottom: 0;
+    position: static;
+    width: 100%;
+  }
+  
+.icons {
+    padding: 15px;
+}
+
+  

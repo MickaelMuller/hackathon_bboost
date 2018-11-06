@@ -4,16 +4,14 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import 'bootstrap/dist/css/bootstrap.min.css';
-/* import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import allReducers from './reducers';
-
-const store = createStore(allReducers); */
+import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 ReactDOM.render(
- 
-    <App />,
-  
+  <BrowserRouter><ScrollToTop>
+    <App />
+  </ScrollToTop></BrowserRouter>,
+
   document.getElementById("root")
 );
 

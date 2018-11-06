@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import FormUpload from './FormUpload';
-/* import Video from './Video'; */
-import './Home.css'
-import Graphs from './Graphs';
+import GraphPart from './GraphPart';
+import './Home.css';
+import Explanation from './Explanation';
 
 
 class Home extends Component {
-    state = {  }
-    render() { 
-        return ( 
+    state = {}
+    render() {
+        return (
             <div>
-                <Graphs />
+                <Explanation />
+                <GraphPart />
                 <FormUpload />
             </div>
-         );
+        );
     }
 }
- 
+
 export default Home;

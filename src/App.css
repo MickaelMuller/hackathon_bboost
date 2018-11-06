@@ -4,4 +4,5 @@
 
 .content {
   min-height: calc(100vh - 170px);
+  margin-top: 75px;
 }

@@ -1,0 +1,30 @@
+.explanation{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.explanation-text{
+    color:rgb(0, 223, 183);
+}
+
+.explanation.spacing{
+    margin: 30px;
+}
+
+.explanation-title{
+    margin: 50px;
+    font-weight: bolder;
+}
+
+.explanation-p{
+    margin-bottom: 0px;
+}
+
+.explanation-top{
+    margin-top: 120px;
+}
+
+.explanation-bottom{
+    margin-bottom: 70px;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import { Navbar, NavbarBrand, NavItem } from 'reactstrap';
+import { Navbar, NavbarBrand, NavItem} from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 import { NavbarNav } from 'mdbreact';
 
 class NavBar extends Component {
@@ -12,13 +13,15 @@ class NavBar extends Component {
                 </NavbarBrand>
                 <NavbarNav left>
                     <NavItem className="links">
-                        Link1
+                        Créer son graphique
+                       
                     </NavItem>
                     <NavItem className="links">
-                        Link2
+                        Tous les graphiques
                     </NavItem>
-                    <NavItem className="links">
-                        Link3
+                    <NavItem className="links"><NavLink to="Society">
+                        A propos
+                        </NavLink>
                     </NavItem>
                 </NavbarNav>
                 <NavbarNav right>

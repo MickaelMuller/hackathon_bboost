@@ -1,0 +1,16 @@
+.graph-part {
+    margin: 50px 50px;
+}
+
+.row-graph {
+    margin-top: 2em;
+}
+
+.graph-text{
+    color:rgb(0, 223, 183);
+    font-weight: bolder;
+}
+
+.graph-bottom{
+    margin-bottom: 70px;
+}

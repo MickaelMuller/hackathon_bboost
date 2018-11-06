@@ -5,10 +5,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       
+        epidemium
       </div>
     );
   }
 }
-
 export default App;

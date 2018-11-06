@@ -6,9 +6,7 @@ import { select } from 'd3-selection';
 
 // Same as data.tsv
 import data from './data';
-
 import './Graphs.css';
-
 const svgWidth = 960,
   svgHeight = 500;
 
@@ -29,8 +27,8 @@ y.domain([0, max(data, d => d.frequency)]);
 
 // <BarChart/>
 export default () => (
-
-  <svg width={svgWidth} height={svgHeight}>
+  <div className="joel">
+  <svg  width={svgWidth} height={svgHeight}>
     <g transform={`translate(${margin.left}, ${margin.top})`}>
       <g
         className="axis axis--x"
@@ -55,5 +53,6 @@ export default () => (
         />
       ))}
     </g>
-  </svg>
+  </svg> 
+  </div>
 );

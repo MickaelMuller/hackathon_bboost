@@ -5,8 +5,6 @@ import Footer from './Footer';
 import './App.css';
 import Home from './components/home/Home';
 import Society from './components/society/Society';
-import GraphPage from './components/GraphPage/GraphPage';
-
 import NavBar from './NavBar';
 
 
@@ -18,8 +16,6 @@ class App extends Component {
         <div className="content">
       
           <div className="Graphics">
-          <GraphPage />
-      
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/society' component={Society} />

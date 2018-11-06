@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import Footer from './Footer';
 import './App.css';
 import Home from './components/home/Home';
+import GraphPage from './components/GraphPage/GraphPage';
 import Library from './components/library/Library';
 import NavBar from './NavBar';
 
@@ -14,6 +15,10 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <div className="content">
+      
+          <div className="Graphics">
+          <GraphPage />
+      
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/library' component={Library} />
@@ -21,8 +26,10 @@ class App extends Component {
             <Route path='/theme/:theme' component={PageTheme} />
             <Route path='/reservation' component={PageReservation} /> */}
           </Switch>
+      
         </div>
         <Footer />
+      </div>
       </div>
     );
   }

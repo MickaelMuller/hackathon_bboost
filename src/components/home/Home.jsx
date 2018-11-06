@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormUpload from './FormUpload';
-import Video from './Video';
+/* import Video from './Video'; */
 import './Home.css'
 import Graphs from './Graphs';
 
@@ -11,6 +11,7 @@ class Home extends Component {
         return ( 
             <div>
                 <Graphs />
+                <FormUpload />
             </div>
          );
     }

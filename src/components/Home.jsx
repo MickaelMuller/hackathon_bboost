@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './navbar';
+import FormUpload from './FormUpload';
+import './Home.css'
 
 
 class Home extends Component {
@@ -8,8 +10,8 @@ class Home extends Component {
         return ( 
             <div>
                 <NavBar />
+                <FormUpload />
 
-                
 
             </div>
          );

@@ -1,12 +1,18 @@
 import React, { Component } from "react";
-import YouTube from "react-youtube";
+import { Container } from 'reactstrap';
+
+import "./Video.css";
 
 class Video extends Component {
   render() {
     return (
-      <div>
-        <YouTube className="video" videoId="BhEPgP7tAqQ" onReady={this._onReady} />
-      </div>
+      <Container fluid className="Video">
+        <video 
+          src="/medias/Epidemium.mp4"
+          autoPlay
+          loop
+        />
+      </Container>
     );
   }
 }

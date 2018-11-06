@@ -1,0 +1,8 @@
+.Video.container-fluid {
+    padding: 0;
+}
+
+.Video video {
+    width: 100%;
+    height: 100%;
+}

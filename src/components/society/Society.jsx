@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Video from '../home/Video';
 
-class Library extends Component {
+class Society extends Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -15,4 +15,4 @@ class Library extends Component {
     }
 }
 
-export default Library;
+export default Society;

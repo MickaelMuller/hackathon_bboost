@@ -1,5 +1,5 @@
 .btnparcourir {
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 20px;
     margin-left: 27vw;
     margin-right: 27vw;
@@ -9,4 +9,14 @@
     margin-left: 27vw;
     margin-right: 27vw;
     margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.form-text{
+    color:rgb(0, 223, 183);
+    font-weight: bolder;
+}
+
+.form-top{
+    margin-top: 70px;
 }

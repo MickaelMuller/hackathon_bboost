@@ -9,7 +9,8 @@ class FormUpload extends Component {
   }
   render() {
     return (
-      <Container>
+      <Container className="margin-top">
+        <h2 className="form-text">Créez votre graphique</h2>
         <Row>
           <Col lg="4">
             <Input type="file" className="btnparcourir">

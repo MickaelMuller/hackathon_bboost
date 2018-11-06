@@ -12,7 +12,7 @@ class App extends Component {
           <NavBar />
         <div className="content">
           <Home />
-          
+        
         </div>
         <Footer />
       </div>

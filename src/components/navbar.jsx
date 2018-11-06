@@ -4,8 +4,6 @@ import { Navbar, NavbarBrand, NavItem } from 'reactstrap';
 import { NavbarNav } from 'mdbreact';
 import { NavLink } from 'react-router-dom';
 
-
-
 class NavBar extends Component {
     render() {
         return (

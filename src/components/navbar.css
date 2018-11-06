@@ -1,0 +1,13 @@
+.navcolor {
+    background-color: #3847a0;
+}
+.logo {
+    width: 50px;
+    display: flex;
+    justify-content: start;    
+}
+
+.links {
+    padding-left: 50px;
+    color: white;
+}

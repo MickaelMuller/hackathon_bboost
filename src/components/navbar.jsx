@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './navbar.css';
 import { Navbar, NavbarBrand, NavItem } from 'reactstrap';
 import { NavbarNav } from 'mdbreact';
-import { NavLink } from 'react-router-dom';
 
 class NavBar extends Component {
     render() {

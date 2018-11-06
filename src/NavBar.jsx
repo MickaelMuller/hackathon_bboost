@@ -12,12 +12,13 @@ class NavBar extends Component {
                     <img className='logo' src='/medias/LogoEpidemiumV2.png' alt='Logo' />
                 </NavbarBrand>
                 <NavbarNav left>
-                    <NavItem className="links">
+                    <NavItem className="links"><NavLink to="/">
                         Créer son graphique
-                       
+                        </NavLink>
                     </NavItem>
-                    <NavItem className="links">
+                    <NavItem className="links"><NavLink to="GraphPage">
                         Tous les graphiques
+                        </NavLink>
                     </NavItem>
                     <NavItem className="links"><NavLink to="Society">
                         A propos

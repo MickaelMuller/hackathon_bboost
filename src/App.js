@@ -15,13 +15,11 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <div className="content">      
-          <div className="Graphics">
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/society' component={Society} />
             <Route path='/graphPage' component={GraphPage} />
           </Switch>
-      
         </div>
         <Footer />
       </div>

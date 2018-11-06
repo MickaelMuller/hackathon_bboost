@@ -2,10 +2,16 @@ import React, { Component } from "react";
 import { Button, Input, Container, Row, Col } from "reactstrap";
 import "./FormUpload.css";
 
+
 class FormUpload extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.handleChange = this.handleChange.bind(this);
+  }
+  
+  handleChange() {
+
   }
   render() {
     return (
@@ -13,7 +19,11 @@ class FormUpload extends Component {
         <h2 className="form-text">Créez votre graphique</h2>
         <Row>
           <Col lg="4">
-            <Input type="file" className="btnparcourir">
+            <Input
+              type="file"
+              onChange={this.handleChange()}
+              className="btnparcourir"
+            >
               Parcourir...
             </Input>
           </Col>
@@ -23,7 +33,7 @@ class FormUpload extends Component {
             <Input type="text" placeholder="Titre" />
           </Col>
         </Row>
-        <br/>
+        <br />
         <Row>
           <Col>
             <Input placeholder="Abcisse X" />

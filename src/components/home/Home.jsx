@@ -5,7 +5,6 @@ import './Home.css';
 import Explanation from './Explanation';
 
 
-
 class Home extends Component {
     state = {}
     render() {

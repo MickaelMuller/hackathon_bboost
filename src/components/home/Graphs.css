@@ -1,0 +1,11 @@
+.bar {
+    fill: rgb(55, 141, 211);
+  }
+  
+  .bar:hover {
+    fill: rgb(75, 42, 165);
+  }
+  
+  .axis--x path {
+    display: none;
+  }

@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/home/Home';
 import NavBar from './NavBar';
 
+
 class App extends Component {
   render() {
     return (

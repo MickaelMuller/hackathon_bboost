@@ -12,17 +12,12 @@ import './OldGraph.css';
                 <Container >
                     <h2 className="old-text old-space">Vos graphiques enregistrés</h2>
     <AliceCarousel mouseDragEnabled >
-      <img src="https://support.content.office.net/fr-fr/media/c957b99e-083e-4443-afc6-c372ea43ed08.png
+      <img src="https://i0.wp.com/sciencepop.fr/wp-content/uploads/2018/08/nombre_cancers.png?ssl=1
 " onDragStart={handleOnDragStart} className="yours-custom-class" alt="image1"/>
-      <img src="https://images.theconversation.com/files/200232/original/file-20171220-4957-hspudb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip" onDragStart={handleOnDragStart} className="yours-custom-class" alt="image2"/>
-      <img src="https://support.content.office.net/fr-fr/media/c957b99e-083e-4443-afc6-c372ea43ed08.png
+      <img src="https://www150.statcan.gc.ca/n1/pub/89-503-x/2005001/c-g/c-g3-5-fra.gif" onDragStart={handleOnDragStart} className="yours-custom-class" alt="image2"/>
+      <img src="https://i1.wp.com/www.adcn.fr/wp-content/uploads/2013/06/P5-Graph01-Web.jpg
 " onDragStart={handleOnDragStart} className="yours-custom-class" alt="image3"/>
-      <img src="https://images.theconversation.com/files/200232/original/file-20171220-4957-hspudb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip" onDragStart={handleOnDragStart} className="yours-custom-class" alt="image4"/>
-      <img src="https://support.content.office.net/fr-fr/media/c957b99e-083e-4443-afc6-c372ea43ed08.png
-" onDragStart={handleOnDragStart} className="yours-custom-class" alt="image5"/>
-<img src="https://images.theconversation.com/files/200232/original/file-20171220-4957-hspudb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip" onDragStart={handleOnDragStart} className="yours-custom-class" alt="image6"/>
-<img src="https://support.content.office.net/fr-fr/media/c957b99e-083e-4443-afc6-c372ea43ed08.png
-" onDragStart={handleOnDragStart} className="yours-custom-class" alt="image7"/>
+
     </AliceCarousel>
     </Container>
             </div>   

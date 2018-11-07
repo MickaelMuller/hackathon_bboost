@@ -23,7 +23,7 @@ class CardPageStar extends Component {
         <Card>
           <CardImg className="img-card" src={this.props.image} alt="Card image cap" />
           <CardBody>
-            <CardTitle>Card Title</CardTitle>
+            <CardTitle>{this.props.title}</CardTitle>
             <CardText>Esse ex et eiusmod occaecat. Aute eiusmod reprehenderit mollit minim eu aute quis sit non velit. Exercitation proident do officia officia. Anim magna proident cillum duis minim sunt duis mollit aliquip elit. Veniam reprehenderit qui tempor aliqua culpa.</CardText>
             <StarRatingComponent
               name="rate1"

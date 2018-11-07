@@ -67,6 +67,12 @@ class FormUpload extends Component {
                 </Col>
               </Row>
               <br />
+              <Row>
+                <Col>
+                  <Input className="tag" type="textarea" placeholder="Tags" className="form-spacing"/>
+                  <Button className="btn-submit">Envoyer</Button>
+                </Col>
+              </Row>
             </Container>
           </FormGroup>
         </Form> 

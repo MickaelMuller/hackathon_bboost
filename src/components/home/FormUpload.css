@@ -8,7 +8,7 @@
 .btnsubmit {
     margin-left: 27vw;
     margin-right: 27vw;
-    margin-top: 20px;
+    margin-top:20px;
     margin-bottom: 70px;
 }
 
@@ -19,4 +19,8 @@
 
 .form-top{
     margin-top: 70px;
+}
+
+.form-spacing{
+    margin-bottom: 30px;
 }

@@ -4,13 +4,11 @@
 
 .mentions{
   cursor: pointer;
-  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .white {
     color: #ffffff;
     font-size: 23px;
-    font-family:'Ubuntu Condensed', sans-serif;
 }
 
 .socials {

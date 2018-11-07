@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import Video from '../home/Video';
+import About from './About';
+import Contact from './Contact';
+import Epidemiumcontact from './Epidemiumcontact';
 
 class Society extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
+   
     render() {
         return (
             <div>
                 <Video />
+                <About />
+                <Contact />
+                <Epidemiumcontact />
             </div>
         );
     }

@@ -38,6 +38,20 @@ class FormUpload extends Component {
               </Row>
               <Row>
                 <Col>
+                <Input
+                    type="select"
+                    name="Rendu"
+                  >
+                    <option>Histogramme</option>
+                    <option >Diagramme circulaire</option>
+                    <option>Nuage de points</option>
+                    <option>Courbe</option>
+                  </Input>
+                </Col>
+              </Row>
+              <br/>
+              <Row>
+                <Col>
                   <Input type="text" placeholder="Titre" required />
                 </Col>
               </Row>
@@ -74,14 +88,22 @@ class FormUpload extends Component {
         <br/>
         {
           this.state.graph ?
-          <div>
+          <Container>
           <Graphs />
-          <Button>Enregistrer</Button>
+          <Row>
+          <Col>
+            <Button>Télécharger</Button>
+            </Col>
+            <Col>
+            <Button>Partager</Button>
+            </Col>
+          </Row>
+          
           <br/>
           <br/>
           <br/>
           <br/>
-          </div>
+          </Container>
           :
           <div></div>
         }

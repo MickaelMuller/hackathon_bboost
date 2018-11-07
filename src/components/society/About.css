@@ -1,0 +1,19 @@
+.section{
+    background-color: #3847A0;
+    padding: 30px;
+    border: 10px;
+}
+
+.about-text{
+    color: white;
+    font-size: 19px;
+}
+
+.about-title{
+    color: white;
+    font-weight: bolder;
+}
+
+.about-img{
+    width: 200px;
+}

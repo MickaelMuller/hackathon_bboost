@@ -23,8 +23,8 @@ class FormUpload extends Component {
       <div>
         <Form>
           <FormGroup>
-            <Container className="margin-top">
-              <h2 className="form-text">Créez votre graphique</h2>
+            <Container>
+              <h2 className="form-text form-title">Créez votre graphique</h2>
               <Row>
                 <Col lg="4">
                   <Input

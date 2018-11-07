@@ -14,3 +14,9 @@
 .graph-bottom{
     margin-bottom: 70px;
 }
+
+.graph-div{
+    border-bottom: solid;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: thin;
+}

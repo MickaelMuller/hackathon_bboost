@@ -19,6 +19,7 @@
 
 .explanation-p{
     margin-bottom: 0px;
+    font-size: 20px;
 }
 
 .explanation-top{
@@ -27,4 +28,10 @@
 
 .explanation-bottom{
     margin-bottom: 70px;
+}
+
+.explanation-div{
+    border-bottom: solid;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: thin;
 }

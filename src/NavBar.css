@@ -1,13 +1,14 @@
 .navcolor {
-    background-color: #3847a0;
+    background-color: #4F00A1;
+    font-size:22px;
 }
+
 .logo {
     width: 50px;
     display: flex;
     justify-content: start;    
-}
+} 
 
 .links {
     padding-left: 50px;
-    color: white;
 }

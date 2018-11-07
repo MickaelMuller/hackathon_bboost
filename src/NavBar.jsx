@@ -7,12 +7,12 @@ import { NavbarNav } from 'mdbreact';
 class NavBar extends Component {
     render() {
         return (
-            <Navbar className="navcolor" dark expand="xs" scrolling fixed='top'>
-                <NavbarBrand href="/">
+            <Navbar className="navcolor" expand="xs" scrolling fixed='top'>
+                <NavbarBrand href="/" >
                     <img className='logo' src='/medias/LogoEpidemiumV2.png' alt='Logo' />
                 </NavbarBrand>
-                <NavbarNav left>
-                    <NavItem className="links"><NavLink to="/">
+                <NavbarNav left >
+                    <NavItem className="links" ><NavLink to="/">
                         Créer son graphique
                         </NavLink>
                     </NavItem>

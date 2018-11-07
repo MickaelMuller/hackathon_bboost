@@ -10,7 +10,7 @@ class GraphPart extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="graph-div">
                 <Container className="graph-bottom">
                     <h2 className="graph-part graph-text">Les graphiques les mieux notés</h2>
                     <Row>

@@ -46,7 +46,8 @@ class CardPageStar extends Component {
             alt="Card image cap"
           />
           <CardBody>
-            <CardTitle>Card Title</CardTitle>
+
+            <CardTitle>{this.props.title}</CardTitle>
             <CardText>
               Esse ex et eiusmod occaecat. Aute eiusmod reprehenderit mollit
               minim eu aute quis sit non velit. Exercitation proident do officia

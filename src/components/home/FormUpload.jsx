@@ -2,17 +2,16 @@ import React, { Component } from "react";
 import { Button, Input, Container, Row, Col, Form, FormGroup } from "reactstrap";
 import "./FormUpload.css";
 
-
 class FormUpload extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
-    this.handleChange = this.handleChange.bind(this);
+    this.state = {
+      dataJson : {},
+    };
   }
+   
+  
 
-  handleChange() {
-
-  }
   render() {
     return (
       <div>

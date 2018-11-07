@@ -13,7 +13,7 @@
 }
 
 .explanation-title{
-    margin: 50px;
+    margin: 20px;
     font-weight: bolder;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .explanation-top{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .explanation-bottom{
@@ -34,4 +34,9 @@
     border-bottom: solid;
     border-bottom-color: #ABABAB;
     border-bottom-width: thin;
+}
+
+.ex-img{
+    width: 200px;
+    margin-top: 40px;
 }

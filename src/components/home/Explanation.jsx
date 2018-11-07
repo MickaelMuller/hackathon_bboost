@@ -11,6 +11,7 @@ class Explanation extends Component {
         return (
             <div className="explanation-div">
                 <Container className="explanation-bottom">
+                <img src='/medias/LogoEpidemiumV2.png' className="ex-img" alt="logo"/>
                     <h1 className="explanation-text explanation-title explanation-top">DECOUVREZ L'INTERFACE EPIDEMIUM</h1>
                     <Row className="explanation">
                         <Col className="explanation-text">

@@ -10,8 +10,9 @@ class Home extends Component {
     render() { 
         return ( 
             <div>
+            <FormUpload />
                 <Graphs />
-                <FormUpload />
+                
             </div>
          );
     }

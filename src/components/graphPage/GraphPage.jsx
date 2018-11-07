@@ -1,20 +1,36 @@
 import React, { Component } from "react";
 import OldGraph from "./OldGraph";
 import CardPageStar from "../graphPage/CardPageStar";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Input, Button } from "reactstrap";
 import './GraphPage.css'
 
 class GraphPage extends Component {
-  state = {};
-  render() {
-    return (
-      <Container>
-        <Row>
-          <Col>
-            <OldGraph />
-          </Col>
-        </Row>
-        <Row >
+    state = {};
+    render() {
+        return (
+            <Container>
+                <Row>
+                    <Col>
+                        <OldGraph />
+                    </Col>
+                </Row>
+                <Row className="center">
+                    <h2 className="gp-text gp-space">Les graphiques du réseau Epidemium</h2>
+                </Row>
+                <Row className="center gp-space">
+                <Col md="6">
+                    <Input
+                        type="select"
+                        name="Abscisse"
+                    >
+                        <option>Les mieux notés</option>
+                        <option >Les derniers ajouts</option>
+                        <option>Par pays</option>
+                        <option>Par pathologies</option>
+                    </Input>
+                    </Col>
+                </Row>
+                <Row >
             <Col lg="4"> 
                 <CardPageStar title="Taux de mortalité du cancer du poumon" rating="0" image="https://www150.statcan.gc.ca/n1/pub/82-624-x/images/11596-03-fra.gif" />
             </Col>
@@ -36,9 +52,12 @@ class GraphPage extends Component {
                 <CardPageStar title="Pourcentage de cancer du rein chez l'homme et la femme" rating="0" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EOg0RD8OrnzJxklaEOvzjhTHJConTWq7-GS_Dmz9LIGRVG1M" />
             </Col>
         </Row>
-      </Container>
-    );
-  }
+                <Row className="center gp-space">
+                <Button color="secondary btn">Voir plus de graphiques</Button>{' '}
+                </Row>
+            </Container>
+        );
+    }
 }
 
 export default GraphPage;

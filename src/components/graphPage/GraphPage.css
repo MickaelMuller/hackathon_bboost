@@ -3,3 +3,17 @@
     padding-top: 2em;
 
 }
+
+.gp-text{
+    color:rgb(0, 223, 183);
+    font-weight: bolder;
+}
+
+.gp-space{
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.center{
+    justify-content: center;
+}

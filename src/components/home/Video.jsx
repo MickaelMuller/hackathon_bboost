@@ -11,6 +11,7 @@ class Video extends Component {
           src="/medias/Epidemium.mp4"
           autoPlay
           loop
+          muted
         />
       </Container>
     );

@@ -8,7 +8,7 @@ class CardPage extends Component {
     super();
 
     this.state = {
-      rating: 0
+      
     };
   }
 
@@ -17,9 +17,6 @@ class CardPage extends Component {
   }
 
   render() {
-
-     const { rating } = this.state;
-
     return (
       <div>
         <Card>
@@ -30,7 +27,7 @@ class CardPage extends Component {
             <StarRatingComponent
               name="rate1"
               starCount={5}
-              value={rating}
+              value={this.props.rating}
               onStarClick={this.onStarClick.bind(this)}
             />
           </CardBody>
@@ -39,7 +36,5 @@ class CardPage extends Component {
     );
   }
 }
-
-
 
 export default CardPage;

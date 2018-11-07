@@ -15,13 +15,13 @@ class GraphPart extends Component {
                     <h2 className="graph-part graph-text">Les graphiques les mieux notés</h2>
                     <Row>
                         <Col xs="12" md="4" lg="4">
-                            <CardPage />
+                            <CardPage rating="3"/>
                         </Col>
                         <Col xs="12" md="4" lg="4">
-                            <CardPage />
+                            <CardPage rating="5"/>
                         </Col>
                         <Col xs="12" md="4" lg="4">
-                            <CardPage />
+                            <CardPage rating="4"/>
                         </Col>
                     </Row>
                 </Container>

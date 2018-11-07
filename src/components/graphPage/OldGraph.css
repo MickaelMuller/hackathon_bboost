@@ -1,0 +1,19 @@
+.alice-carousel__prev-btn{
+    text-align: center;
+}
+
+.old-text{
+    color:rgb(0, 223, 183);
+    font-weight: bolder;
+}
+
+.old-space{
+    padding: 30px;
+}
+
+.old-div{
+    border-bottom: solid;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: thin;
+    margin-bottom: 20px;
+}

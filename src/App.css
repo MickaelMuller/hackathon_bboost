@@ -1,7 +1,9 @@
 .App {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 } 
 
 .content {
   min-height: calc(100vh - 170px);
+  margin-top: 75px;
 }

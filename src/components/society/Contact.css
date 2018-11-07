@@ -1,0 +1,25 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.contact-pos{
+    justify-content: center;
+}
+
+.contact-div{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border-bottom: solid;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: thin;
+}
+
+.contact-title{
+    color:rgb(0, 223, 183);
+    font-weight: bolder;
+    margin-bottom: 40px;
+}

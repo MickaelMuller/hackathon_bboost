@@ -1,0 +1,22 @@
+.graph-part {
+    margin: 50px 50px;
+}
+
+.row-graph {
+    margin-top: 2em;
+}
+
+.graph-text{
+    color:rgb(0, 223, 183);
+    font-weight: bolder;
+}
+
+.graph-bottom{
+    margin-bottom: 70px;
+}
+
+.graph-div{
+    border-bottom: solid;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: thin;
+}

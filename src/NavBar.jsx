@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import { Navbar, NavbarBrand, NavItem } from 'reactstrap';
+import { Navbar, NavbarBrand, NavItem} from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 import { NavbarNav } from 'mdbreact';
 
 class NavBar extends Component {
     render() {
         return (
-            <Navbar className="navcolor" dark expand="xs" scrolling fixed='top'>
-                <NavbarBrand href="/">
+            <Navbar className="navcolor" expand="xs" scrolling fixed='top'>
+                <NavbarBrand href="/" >
                     <img className='logo' src='/medias/LogoEpidemiumV2.png' alt='Logo' />
                 </NavbarBrand>
-                <NavbarNav left>
-                    <NavItem className="links">
-                        Link1
+                <NavbarNav left >
+                    <NavItem className="links" ><NavLink to="/">
+                        Créer son graphique
+                        </NavLink>
                     </NavItem>
-                    <NavItem className="links">
-                        Link2
+                    <NavItem className="links"><NavLink to="GraphPage">
+                        Tous les graphiques
+                        </NavLink>
                     </NavItem>
-                    <NavItem className="links">
-                        Link3
+                    <NavItem className="links"><NavLink to="Society">
+                        A propos
+                        </NavLink>
                     </NavItem>
                 </NavbarNav>
                 <NavbarNav right>

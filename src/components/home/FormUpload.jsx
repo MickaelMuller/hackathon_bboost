@@ -20,14 +20,11 @@ class FormUpload extends Component {
             <Container className="margin-top">
               <h2 className="form-text">Créez votre graphique</h2>
               <Row>
-                <Col>
+                <Col lg="4">
                   <Input
                     type="file"
-                    onChange={this.handleChange()}
-                    className="btnparcourir"
-                  >
-                    Parcourir...
-            </Input>
+                    className="btnparcourir">Parcourir...
+                    </Input>
                 </Col>
               </Row>
               <Row>

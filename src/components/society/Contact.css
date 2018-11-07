@@ -11,7 +11,11 @@
 
 .contact-div{
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border-bottom: solid;
+    border-bottom-color: #ABABAB;
+    border-bottom-width: thin;
 }
 
 .contact-title{

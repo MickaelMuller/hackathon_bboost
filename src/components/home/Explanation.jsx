@@ -9,7 +9,7 @@ class Explanation extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="explanation-div">
                 <Container className="explanation-bottom">
                     <h1 className="explanation-text explanation-title explanation-top">DECOUVREZ L'INTERFACE EPIDEMIUM</h1>
                     <Row className="explanation">

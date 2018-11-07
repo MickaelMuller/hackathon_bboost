@@ -30,7 +30,7 @@ class Explanation extends Component {
                             <h3 className="explanation-spacing">Transdisciplinaire</h3>
                         </Col>
                     </Row>
-                    <p className="explanation-p">Laissez-vous guider dans un espace collaboratif</p><br/><p>capable de faire agir et interagir les médecins et chercheurs de façon intuitive et interactive.</p>
+                    <p className="explanation-p">Laissez-vous guider dans un espace collaboratif</p><br/><p className="explanation-p">capable de faire agir et interagir les médecins et chercheurs de façon intuitive et interactive.</p>
                 </Container>
             </div>
         );

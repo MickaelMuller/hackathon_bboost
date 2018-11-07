@@ -9,6 +9,7 @@ import GraphPage from './components/graphPage/GraphPage';
 import NavBar from './NavBar';
 
 
+
 class App extends Component {
   render() {
     return (

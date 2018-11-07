@@ -1,17 +1,23 @@
 import React, { Component } from "react";
-import { Button, Input, Container, Row, Col, Form, FormGroup } from "reactstrap";
+import { Input, Container, Row, Col, Form, FormGroup } from "reactstrap";
 import "./FormUpload.css";
+import Graphs from './Graphs'
 
 class FormUpload extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dataJson : {},
-    };
+      graph : false,
+    }
+    this.boolean = this.boolean.bind(this)
+  }
+
+  boolean(){
+    this.setState({
+      graph: !this.state.graph
+    })
   }
    
-  
-
   render() {
     return (
       <div>
@@ -23,7 +29,10 @@ class FormUpload extends Component {
                 <Col lg="4">
                   <Input
                     type="file"
-                    className="btnparcourir">Parcourir...
+                    className="btnparcourir"
+                    onChange={this.boolean}
+                    >Parcourir...
+                    
                     </Input>
                 </Col>
               </Row>
@@ -58,15 +67,18 @@ class FormUpload extends Component {
                 </Col>
               </Row>
               <br />
-              <Row>
-                <Col>
-                  <Input className="tag" type="textarea" placeholder="Tags" />
-                  <Button className="btn-submit">Envoyer</Button>
-                </Col>
-              </Row>
             </Container>
           </FormGroup>
         </Form> 
+        <br/>
+        <br/>
+        {
+          this.state.graph ? 
+          <Graphs />
+          :
+          <div></div>
+        }
+        
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Input, Container, Row, Col, Form, FormGroup } from "reactstrap";
+import { Input, Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
 import "./FormUpload.css";
 import Graphs from './Graphs'
 
@@ -73,8 +73,15 @@ class FormUpload extends Component {
         <br/>
         <br/>
         {
-          this.state.graph ? 
+          this.state.graph ?
+          <div>
           <Graphs />
+          <Button>Enregistrer</Button>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          </div>
           :
           <div></div>
         }
